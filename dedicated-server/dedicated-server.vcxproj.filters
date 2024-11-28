@@ -10,6 +10,9 @@
     <Filter Include="Source\Main">
       <UniqueIdentifier>{c91bc170-6546-4112-add0-fb2cdd6f1cb5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\include">
+      <UniqueIdentifier>{8a8c226b-92cd-46d3-9e72-99f910c00306}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Server.cpp">
@@ -19,6 +22,15 @@
   <ItemGroup>
     <ClInclude Include="Server.h">
       <Filter>Source\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Buffer.h">
+      <Filter>Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Define.h">
+      <Filter>Source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\User.h">
+      <Filter>Source\include</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
